@@ -16,6 +16,12 @@ const items = [{
     "link": "https://telegram.me/MitchellP" //Telegram Profile 
 },
 {
+    "title": "Discord",
+    "subtitle": "Drop me a message on Discord",
+    "image": discord,
+    "link": "https://www.discord.com/users/438439251009601537" //Instagram Profile Link 
+},
+{
     "title": "Instagram",
     "subtitle": "Hub of my awesome 😎 pics",
     "image": instagram,
@@ -48,7 +54,7 @@ const items = [{
 {
     "title": "PSN",
     "subtitle": "AMFMitch",
-    "image": xbox,
+    "image": psn,
     "link": "#"//PSN Profile Link
 },
 {
