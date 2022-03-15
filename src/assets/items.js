@@ -1,4 +1,5 @@
 import telegram from '../assets/telegram.png'
+import discord from '../assets/discord.png'
 import instagram from '../assets/instagram.png'
 import snapchat from '../assets/snapchat.png'
 import tiktok from '../assets/tiktok.png'
