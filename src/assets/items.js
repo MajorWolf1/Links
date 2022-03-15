@@ -30,7 +30,7 @@ const items = [{
 },
 {
     "title": "Snapchat",
-    "subtitle": "🏠 of my open-source projects",
+    "subtitle": "Send me a picture or two.",
     "image": snapchat,
     "link": "https://github.com/heysagnik" //Snapchat Profile Link
 },
