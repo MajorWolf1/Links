@@ -42,12 +42,6 @@ const items = [{
     "link": "https://www.snapchat.com/add/Mitch9835" //Snapchat Profile Link
 },
 {
-    "title": "Tiktok",
-    "subtitle": "My tiktok",
-    "image": tiktok,
-    "link": "https://www.tiktok.com/@mitchyp69" //Tiktok Profile Link
-},
-{
     "title": "Twitter",
     "subtitle": "Don't forget to follow me 😉",
     "image": twitter,
