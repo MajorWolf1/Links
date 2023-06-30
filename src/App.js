@@ -31,4 +31,23 @@ function App() {
     );
 }
 
+function MyButton(props) {
+  return <button {...props} />
+}
+
+function App() {
+  const [value, setValue] = React.useState('some\ntext');
+  const [copied, setCopied] = React.useState(false);
+  const onChange = React.useCallback(({target: {value}}) => {
+    setValue(value);
+    setCopied(true);
+  }, [])
+  const onClick = React.useCallback(({target: {innerText}}) => {
+    console.log(`Clicked on "${innerText}"!`);
+  }, [])
+  const onCopy = React.useCallback(() => {
+    setCopied(true);
+  }, [])
+  
+
 export default App;
