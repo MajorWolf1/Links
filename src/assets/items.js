@@ -1,4 +1,5 @@
 import telegram from '../assets/telegram.png'
+import session from '../assets/session.png'
 import discord from '../assets/discord.png'
 import instagram from '../assets/instagram.png'
 import snapchat from '../assets/snapchat.png'
@@ -17,10 +18,16 @@ const items = [{
     "link": "https://telegram.me/MitchellP" //Telegram Profile 
 },
 {
+    "title": "Session",
+    "subtitle": "Drop me a message on Session",
+    "image": session,
+    "link": "05e88f10626e99a7a792b3887a9688dac668d68a20b1cb4c2e2abb745fb8c0ac1d" //Instagram Profile Link 
+},
+{
     "title": "Discord",
     "subtitle": "Drop me a message on Discord",
     "image": discord,
-    "link": "https://www.discord.com/users/438439251009601537" //Instagram Profile Link 
+    "link": "https://www.discord.com/users/438439251009601537" //Discord Profile Link 
 },
 {
     "title": "Instagram",
@@ -62,7 +69,7 @@ const items = [{
     "title": "Steam",
     "subtitle": "SonOfAMitch",
     "image": steam,
-    "link": "https://steamcommunity.com/id/MitchP98/"//Steam Channel Link 
+    "link": "https://steamcommunity.com/id/MitchP98/"//Steam Profile Link 
 }]
 
 export default items
