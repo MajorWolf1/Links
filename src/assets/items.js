@@ -20,7 +20,7 @@ const items = [{
     "title": "Session",
     "subtitle": "Drop me a message on Session",
     "image": session,
-    "links": "05e88f10626e99a7a792b3887a9688dac668d68a20b1cb4c2e2abb745fb8c0ac1d" //Instagram Profile Link 
+    navigator.clipboard.writeText(05e88f10626e99a7a792b3887a9688dac668d68a20b1cb4c2e2abb745fb8c0ac1d) //Instagram Profile Link 
 },
 {
     "title": "Discord",
