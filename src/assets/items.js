@@ -44,7 +44,7 @@ const items = [{
     "title": "Twitter",
     "subtitle": "Don't forget to follow me 😉",
     "image": twitter,
-    "link": "https://twitter.com/CheshireCat_exe"//Twitter Profile Link 
+    "link": "https://twitter.com/AMFMitch"//Twitter Profile Link 
 },
 {
     "title": "XBOX",
