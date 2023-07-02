@@ -7,8 +7,7 @@ import twitter from '../assets/twitter.png'
 import xbox from '../assets/xbox.png'
 import psn from '../assets/psn.png'
 import steam from '../assets/steam.png'
-
-
+import copy from 'copy-to-clipboard';
 
 const items = [{
     "title": "Telegram",
@@ -20,14 +19,7 @@ const items = [{
     "title": "Session",
     "subtitle": "Drop me a message on Session",
     "image": session,
-    copyToClipboard = async () => {
-      try {
-        await navigator.clipboard.writeText('text');
-        console.log('success');
-      } catch (err) {
-        console.error('Failed to copy!', err);
-      }
-    };
+    copy('Text');
 },
 {
     "title": "Discord",
