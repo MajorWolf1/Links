@@ -7,8 +7,9 @@ import twitter from '../assets/twitter.png'
 import xbox from '../assets/xbox.png'
 import psn from '../assets/psn.png'
 import steam from '../assets/steam.png'
-import copy from 'copy-to-clipboard';
-
+export default function App() {
+const text ="This is a text to check if the copy to clipboard is working."
+    
 const items = [{
     "title": "Telegram",
     "subtitle": "Chat with me instantly, Don't hesitate! ",
@@ -19,7 +20,9 @@ const items = [{
     "title": "Session",
     "subtitle": "Drop me a message on Session",
     "image": session,
-    copy('Text');
+     onClick={() => {
+          navigator.clipboard.writeText(text);
+    }}
 },
 {
     "title": "Discord",
