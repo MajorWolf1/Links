@@ -8,7 +8,23 @@ import xbox from '../assets/xbox.png'
 import psn from '../assets/psn.png'
 import steam from '../assets/steam.png'
 export default function App() {
-const text ="This is a text to check if the copy to clipboard is working."
+  const text =
+  "ddddd"
+  return (
+    <div className="App">
+      <h1>Copy to Clipboard!</h1>
+      <h4>By Tanya</h4>
+      <p>{text}</p>
+      <button
+        onClick={() => {
+          navigator.clipboard.writeText(text);
+        }}
+      >
+        Copy
+      </button>
+    </div>
+  );
+}
     
 const items = [{
     "title": "Telegram",
@@ -20,9 +36,6 @@ const items = [{
     "title": "Session",
     "subtitle": "Drop me a message on Session",
     "image": session,
-     onClick={() => {
-          navigator.clipboard.writeText(text);
-    }}
 },
 {
     "title": "Discord",
