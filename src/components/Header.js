@@ -28,7 +28,6 @@ function Header() {
         {isDark ? <SunIcon color="white" /> : <MoonIcon  />}
       </button>
     </div>
-    <p>This is some example text.</p>
   )
 }
 
