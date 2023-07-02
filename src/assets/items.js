@@ -20,7 +20,14 @@ const items = [{
     "title": "Session",
     "subtitle": "Drop me a message on Session",
     "image": session,
-    await navigator.clipboard.writeText('This text is now in the clipboard'); //Instagram Profile Link 
+    copyToClipboard = async () => {
+      try {
+        await navigator.clipboard.writeText('text');
+        console.log('success');
+      } catch (err) {
+        console.error('Failed to copy!', err);
+      }
+    };
 },
 {
     "title": "Discord",
