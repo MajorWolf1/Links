@@ -27,8 +27,8 @@ function Header() {
       <button className="switch-theme-button" onClick={handleSwitchTheme}>
         {isDark ? <SunIcon color="white" /> : <MoonIcon  />}
       </button>
-          <p>This is some example text.</p>
     </div>
+    <p>This is some example text.</p>
   )
 }
 
