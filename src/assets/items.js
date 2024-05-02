@@ -7,6 +7,7 @@ import twitter from '../assets/twitter.png'
 import xbox from '../assets/xbox.png'
 import psn from '../assets/psn.png'
 import steam from '../assets/steam.png'
+import nintendo from '../assets/nintendo.png'
 export default function App() {
   const text =
   "ddddd"
@@ -78,6 +79,12 @@ const items = [{
     "subtitle": "SonOfAMitch",
     "image": steam,
     "link": "https://steamcommunity.com/id/MitchP98/"//Steam Profile Link 
+}
+{
+    "title": "Nintendo",
+    "subtitle": "Mitch",
+    "image": nintendo,
+    "link": "https://lounge.nintendo.com/friendcode/0150-5672-1734/DGxWzXtGRk"//Nintendo Profile Link 
 }]
 
 export default items
